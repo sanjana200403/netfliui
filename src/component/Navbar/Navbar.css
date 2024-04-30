@@ -1,0 +1,36 @@
+.nav-logo{
+    width: 100px;
+    object-fit: contain;
+}
+.nav-avatar{
+    width: 30px;
+    border-radius: 50%;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    /* background-color: #111; */
+    z-index: 2;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+ 
+}
+.nav_black{
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    /* background-color: #111; */
+    z-index: 2;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
